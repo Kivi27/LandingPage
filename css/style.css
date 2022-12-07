@@ -12,7 +12,7 @@ body {
     background-color: #4a657d;
     color: #ffffff;
     font-family: 'Open Sans', sans-serif;
-    font-size: 10pt;
+    font-size: 0.9rem;
     font-weight: bold;
 }
 
@@ -54,7 +54,7 @@ body {
     color: #4a657d;
     display: flex;
     font-family: 'Open Sans', sans-serif;
-    font-size: 12pt;
+    font-size: 1rem;
     font-weight: bold;
 }
 
@@ -89,7 +89,6 @@ body {
     justify-content: center;
     align-items: center;
     font-family: 'Open Sans', sans-serif;
-    text-transform: capitalize;
     color: #4a657d;
     text-align: center;
     font-weight: bold;
@@ -114,13 +113,14 @@ body {
 
 .title_promo {
     font-size: 3rem;
+    margin-bottom: 0;
 }
 
 .our_company_block {
-    margin-top: 10%;
+    margin-top: 8%;
 }
 
-.btn_load {
+.btn_link {
     color: #ffffff;
     background-color: #1f87e4;
     padding: 2% 6%;
