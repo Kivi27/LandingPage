@@ -7,6 +7,10 @@ body {
     padding: 0;
 }
 
+a {
+    text-decoration: none;
+}
+
 .contacts {
     display: flex;
     background-color: #4a657d;
@@ -46,12 +50,10 @@ body {
 
 .contacts_with_us {
     color: #ffffff;
-    text-decoration: none;
 }
 
 .navigation {
     background-color: #ffffff;
-    color: #4a657d;
     display: flex;
     font-family: 'Open Sans', sans-serif;
     font-size: 1rem;
@@ -73,6 +75,10 @@ body {
 .navigation_list_item {
     display: inline-block;
     padding: 20px;
+}
+
+.navigation_list_item a {
+    color: #4a657d;
 }
 
 .logo_img {
@@ -124,5 +130,4 @@ body {
     color: #ffffff;
     background-color: #1f87e4;
     padding: 2% 6%;
-    text-decoration: none;
 }
