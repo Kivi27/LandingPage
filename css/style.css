@@ -9,125 +9,54 @@ body {
 
 a {
     text-decoration: none;
+    color: #ffffff;
 }
 
-.contacts {
-    display: flex;
+.top_header {
     background-color: #4a657d;
-    color: #ffffff;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 0.9rem;
-    font-weight: bold;
-}
-
-.contacts_left_part, .contacts_right_part {
-    width: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.header_list {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0;
-}
-
-.header_list_item {
-    display: inline-block;
-    margin-right: 30px;
-}
-
-.header_icon_image {
-    margin-right: 20px;
-}
-
-.last_list_item {
-    background-color: #1f87e4;
-    padding: 20px 40px;
-}
-
-.contacts_with_us {
-    color: #ffffff;
-}
-
-.navigation {
-    background-color: #ffffff;
-    display: flex;
     font-family: 'Open Sans', sans-serif;
     font-size: 1rem;
     font-weight: bold;
-}
-
-.navigation_left_part, .navigation_right_part {
-    width: 50%;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-}
-
-.navigation_right_part {
-    justify-content: flex-end;
-    margin-right: 8%;
-}
-
-.navigation_list_item {
-    display: inline-block;
-    padding: 20px;
-}
-
-.navigation_list_item a {
-    color: #4a657d;
-}
-
-.logo_img {
-    margin-left: 20%;
-}
-
-.promo {
-    background: url("../resources/img/bg_promo_section.png");
-    min-height: 960px;
-}
-
-.promo {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: 'Open Sans', sans-serif;
-    color: #4a657d;
-    text-align: center;
-    font-weight: bold;
-}
-
-.promo_center {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.left_arrow_container {
-    background-color: #1f87e4;
-    padding: 1.3%;
-}
-
-.right_arrow_container {
-    background: url("../resources/img/bg_slider.png");
-    padding: 1.3%;
-}
-
-.title_promo {
-    font-size: 3rem;
-    margin-bottom: 0;
-}
-
-.our_company_block {
-    margin-top: 8%;
-}
-
-.btn_link {
     color: #ffffff;
+}
+
+.center_container {
+    width: 90%;
+    display: flex;
+}
+
+.contact_list {
+    display: flex;
+    list-style-type: none;
+    column-gap: 30px;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.contact_list_left_part {
+    justify-content: center;
+    width: 50%;
+}
+
+.contact_list_right_part {
+    width: 50%;
+    justify-content: center;
+    column-gap: 20px;
+}
+
+.contact_icon {
+    margin-right: 20px;
+}
+
+#support_icon {
+    margin-right: 15px;
+}
+
+.link_block {
     background-color: #1f87e4;
-    padding: 2% 6%;
+    padding: 20px 40px;
 }
