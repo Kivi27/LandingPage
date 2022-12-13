@@ -193,3 +193,36 @@ a {
     width: 600px;
     color: #696969FF;
 }
+
+.service {
+    background-color: #eae5e5;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.service__icon {
+    margin-bottom: 20px;
+}
+
+.service__title {
+    font-weight: bold;
+    font-size: 1.1rem;
+    margin-bottom: 30px;
+    width: 320px;
+}
+
+.service__description {
+    width: 300px;
+    margin-bottom: 20px;
+    color: #838282;
+}
+
+.service__button {
+    color: #ffffff;
+    padding: 20px;
+    background-color: #1f87e4;
+}
