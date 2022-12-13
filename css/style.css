@@ -19,22 +19,22 @@ a {
     color: #ffffff;
 }
 
-.top_header, .navigation {
+.top-header, .navigation {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.top_header {
+.top-header {
     background-color: #4a657d;
 }
 
-.center_container {
+.center-container {
     width: 90%;
     display: flex;
 }
 
-.contact_list {
+.contact-list {
     display: flex;
     list-style-type: none;
     column-gap: 30px;
@@ -43,7 +43,7 @@ a {
     padding: 0;
 }
 
-.contact_list_left_part {
+.contact-list-left-part {
     justify-content: flex-start;
     width: 50%;
 }
@@ -54,7 +54,7 @@ a {
     column-gap: 20px;
 }
 
-.contact_icon {
+.contact-list-left-part__contact_icon {
     margin-right: 20px;
 }
 
@@ -76,11 +76,11 @@ a {
     padding: 20px 0px;
 }
 
-.menu_list {
+.menu {
     column-gap: 40px;
 }
 
-.menu_list_item {
+.menu__item {
     color: #4a657d;
 }
 
