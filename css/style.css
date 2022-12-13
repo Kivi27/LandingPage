@@ -45,6 +45,7 @@ a {
     list-style-type: none;
     column-gap: 30px;
     align-items: center;
+
     margin: 0;
     padding: 0;
 }
@@ -79,7 +80,7 @@ a {
 }
 
 .navigation_center_container {
-    padding: 20px 0px;
+    padding: 20px 0;
 }
 
 .menu {
@@ -98,7 +99,7 @@ a {
     background: center/100% no-repeat url("../resources/img/bg_promo_section.png");
     min-height: 950px;
     position: relative;
-    top:-145px;
+    top: -145px;
     z-index: -1;
 }
 
@@ -178,7 +179,7 @@ a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top:120px;
+    margin-top: 120px;
 }
 
 .info-sector__title {
